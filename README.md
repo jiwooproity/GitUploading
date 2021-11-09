@@ -1,2 +1,3 @@
 # GitUploading
-Test_Web / Hellow World.. zzz
+2021.11.09 : 첫 프로젝트 깃허브 업로드
+2021.11.09 : + 로그인 및 로그아웃 기능 구현 (추가)
