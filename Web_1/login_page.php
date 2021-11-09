@@ -10,6 +10,7 @@
     <body>
 
         <?php
+
         include ("header_nav.php");
         ?>
 
@@ -24,7 +25,7 @@
 
         <div class="login-frame">
             <div class="login-frame__width">
-                <form class="login-frame__form" action="ok/login.php" method="POST">
+                <form class="login-frame__form" action="ok/login_ok.php" method="POST">
                     <div class="login-frame__line"></div>
 
                     <p>아이디</p>
