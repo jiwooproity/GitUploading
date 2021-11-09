@@ -1,0 +1,22 @@
+.main-footer__frame {
+    width: 100%;
+    height: 500px;
+
+    background-color: rgb(234, 234, 234);
+
+    position: static;
+
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer__width {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

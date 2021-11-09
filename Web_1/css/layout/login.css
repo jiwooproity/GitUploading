@@ -1,0 +1,139 @@
+.main-login__width {
+    width: 100%;
+
+    padding: 40px 0px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-login__text {
+    padding-bottom: 8px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.main-login__span {
+    padding-top: 8px;
+    font-size: 20px;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.login-frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-frame {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.login-frame__width {
+    width: 350px;
+}
+
+.login-frame__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-frame__form input {
+    padding: 12px 5px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.login-frame__form p {
+    padding: 20px 0px 6px 0px;
+}
+
+.login-frame__line {
+    width: 350px;
+
+    margin: 35px 0px 0px 0px;
+
+    border-top: 1px solid rgba(255, 45, 45, 0.74);
+}
+
+.login-frame__btn {
+    padding-top: 30px;
+    width: 350px;
+}
+
+.login-frame__btn input {
+    color: white;
+    width: 100%;
+    background-color: rgb(44, 51, 70);
+}
+
+.login-frame__btn input:hover {
+    background-color: rgb(81, 84, 108);
+}
+
+.login-find__frame {
+    width: 100%;
+
+    padding: 10px 0px 40px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-find__width {
+    width: 350px;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finder-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.finder-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.finder-item:first-child {
+    padding-right: 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.finder-item:nth-child(2) {
+    padding-left: 5px;
+}
+
+.login-move__regis {
+    font-size: 12px;
+}
+
+.login-move__regis a {
+    text-decoration: none;
+    color: rgba(187, 19, 19, 0.74);
+}

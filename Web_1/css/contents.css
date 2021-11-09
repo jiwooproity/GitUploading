@@ -1,0 +1,153 @@
+.main-content {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content__top {
+    width: 1200px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main-content__img {
+    width: 1200px;
+}
+
+/* 메인 컨텐츠 라인 */
+
+.line__flex {
+    width: 100%;
+
+    margin-top: 70px;
+    margin-bottom: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line__frame {
+    width: 1200px;
+}
+
+.line__top {
+    width: 100%;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+/* 컨텐츠 타이틀 */
+
+.content__frame {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__title {
+    font-size: 35px;
+}
+
+/* 첫번째 타이틀 */
+
+.first-content__frame {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-content__teaser {
+    width: 1210px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-content__grid {
+    width: 50%;
+
+    margin: 0 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-content__img {
+    width: 50%;
+
+    margin-right: 5px;
+
+    border-radius: 15px;
+}
+
+/* 두번째 컨텐츠 - 롤린 MV */
+
+.rollin__frame {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rollin__width {
+    width: 1200px;
+    height: 673px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rollin__mv {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .content__title {
+        font-size: 25px;
+    }
+
+    .first-content__teaser {
+        width: 100%;
+
+        flex-direction: column;
+    }
+
+    .first-content__img {
+        width: 190px;
+    }
+
+    .first-content__grid:first-child,
+    .first-content__grid:nth-child(2),
+    .first-content__grid:nth-child(3) {
+        margin-bottom: 5px;
+    }
+
+    .rollin__width {
+        width: 380px;
+        height: 213px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .rollin__mv {
+        width: 100%;
+        height: 100%;
+    }
+}

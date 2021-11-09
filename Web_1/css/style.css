@@ -1,0 +1,13 @@
+@import "reset/reset.css";
+@import "layout/header_nav.css";
+@import "contents.css";
+@import "layout/footer.css";
+@import "layout/register.css";
+@import "layout/login.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oswald:wght@200;300;400;500;600&display=swap');
+
+.html {
+    height: 100%;
+    position: relative;
+}
