@@ -4,7 +4,7 @@
         $user_id = $_POST['id'];
         $user_password = $_POST['password'];
 
-        $connect = mysqli_connect('127.0.0.1', 'root', 'jiwooity1', 'test');
+        $connect = mysqli_connect('localhost', 'jiwooproity', 'mirrorstale1!', 'jiwooproity');
         $select_query = "SELECT * FROM member_list WHERE id='$user_id' and password='$user_password'";
         $select_result = mysqli_query($connect, $select_query);
         $row = mysqli_num_rows($select_result);

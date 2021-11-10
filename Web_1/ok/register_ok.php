@@ -1,5 +1,5 @@
 <?php
-    $connect = mysqli_connect("127.0.0.1", "root", "jiwooity1", "test");
+$connect = mysqli_connect('localhost', 'jiwooproity', 'mirrorstale1!', 'jiwooproity');
 
     if($_POST['id'] == "" || $_POST['password'] == "" || $_POST['name'] == "" || $_POST['birth'] == "" || $_POST['email'] == "" || $_POST['phone_1'] == "" || $_POST['phone_2'] == "" || $_POST['phone_3'] == "") {
         echo "<script> alert('내용을 빠짐없이 기재해주세요!'); history.back(); </script>";
